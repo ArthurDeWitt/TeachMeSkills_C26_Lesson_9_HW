@@ -1,19 +1,19 @@
-package com.teachmeskills.lesson9.HW.Homework2;
+package com.teachmeskills.lesson9.HW.homework2.card;
 
 
-abstract class Card {
+public abstract class Card {
     private String cardNumber;
     private String cvc;
     private double balance;
     private String currency;
-    private int cardId;
+    private int cardID;
 
     public Card(String cardNumber, String cvc, double balance, String currency, int cardId) {
         this.cardNumber = cardNumber;
         this.cvc = cvc;
         this.balance = balance;
         this.currency = currency;
-        this.cardId = cardId;
+        this.cardID = cardId;
     }
 
     public double getBalance() {

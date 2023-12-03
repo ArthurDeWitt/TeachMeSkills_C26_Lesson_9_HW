@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson9.HW.Homework1;
+package com.teachmeskills.lesson9.HW.homework1;
 
 public class Utils {
     public static void printMatrix(int[][] matrix) {

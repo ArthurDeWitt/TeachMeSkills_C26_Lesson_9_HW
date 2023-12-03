@@ -1,18 +1,16 @@
-package com.teachmeskills.lesson9.HW.Homework2;
+package com.teachmeskills.lesson9.HW.homework2.client;
+
+import com.teachmeskills.lesson9.HW.homework2.card.Card;
 
 import java.util.ArrayList;
 import java.util.List;
 
-class Client {
+public class Client {
     private String firstName;
     private String lastName;
     private String passportNumber;
     private String dateOfBirth;
-    private String postalCode;
-    private String country;
-    private String city;
-    private String street;
-    private String houseNumber;
+    private Address address;
     private List<Card> cards;
     private double commissionPercentage;
 
@@ -22,11 +20,6 @@ class Client {
         this.lastName = lastName;
         this.passportNumber = passportNumber;
         this.dateOfBirth = dateOfBirth;
-        this.postalCode = postalCode;
-        this.country = country;
-        this.city = city;
-        this.street = street;
-        this.houseNumber = houseNumber;
         this.cards = new ArrayList<>();
     }
 

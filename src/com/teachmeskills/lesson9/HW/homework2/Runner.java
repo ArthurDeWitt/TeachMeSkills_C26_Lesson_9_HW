@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson9.HW.Homework2;
+package com.teachmeskills.lesson9.HW.homework2;
 /*
 Создайте программу для перевода с одной банковской карты клиента на его другую карту.
 Данные для перевода задаются с консоли.
@@ -27,6 +27,11 @@ package com.teachmeskills.lesson9.HW.Homework2;
 Карта 2 - сумма после перевода
 Комиссия за перевод.
  */
+import com.teachmeskills.lesson9.HW.homework2.card.impl.BelCard;
+import com.teachmeskills.lesson9.HW.homework2.card.impl.MasterCard;
+import com.teachmeskills.lesson9.HW.homework2.card.impl.VisaCard;
+import com.teachmeskills.lesson9.HW.homework2.client.Client;
+
 import java.util.Scanner;
 
 public class Runner {

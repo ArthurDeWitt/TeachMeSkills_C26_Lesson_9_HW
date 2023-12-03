@@ -1,6 +1,6 @@
-package com.teachmeskills.lesson9.HW.Homework1;
+package com.teachmeskills.lesson9.HW.homework1;
 
-import static com.teachmeskills.lesson9.HW.Homework1.Utils.printMatrix;
+import static com.teachmeskills.lesson9.HW.homework1.Utils.printMatrix;
 
 public class Runner extends MultiplyMatrices {
 

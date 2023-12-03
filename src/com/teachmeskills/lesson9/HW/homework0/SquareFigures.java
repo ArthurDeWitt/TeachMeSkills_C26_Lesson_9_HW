@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson9.HW.Homework0;
+package com.teachmeskills.lesson9.HW.homework0;
 
 import java.util.Scanner;
 

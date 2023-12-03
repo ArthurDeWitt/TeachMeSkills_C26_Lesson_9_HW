@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson9.HW.Homework1;
+package com.teachmeskills.lesson9.HW.homework1;
 
 public class MultiplyMatrices {
     // Implementation of the multiplyMatrices method (thanks to Google)

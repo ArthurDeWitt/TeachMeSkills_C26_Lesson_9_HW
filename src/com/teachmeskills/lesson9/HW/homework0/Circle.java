@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson9.HW.Homework0;
+package com.teachmeskills.lesson9.HW.homework0;
 
 final class Circle extends Figure {
     private double radius;
